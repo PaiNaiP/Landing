@@ -1,0 +1,31 @@
+{
+    "prices":[
+        {
+            "id": 1,
+            "package": "SILVER PACKAGE",
+            "price": 30,
+            "bonus1": "Free T-Shirt & swags",
+            "bonus2": "Free of all message treatments",
+            "bonus3": "Access Clup Facilites",
+            "bonus4": "Out Door activites"
+        },
+        {
+            "id": 2,
+            "package": "GOLD PACKAGE",
+            "price": 50,
+            "bonus1": "Free T-Shirt & swags",
+            "bonus2": "Free of all message treatments",
+            "bonus3": "Access Clup Facilites",
+            "bonus4": "Out Door activites"
+        },
+        {
+            "id": 3,
+            "package": "PLATINUM PACKAGE",
+            "price": 70,
+            "bonus1": "Free T-Shirt & swags",
+            "bonus2": "Free of all message treatments",
+            "bonus3": "Access Clup Facilites",
+            "bonus4": "Out Door activites"
+        }
+    ]
+}

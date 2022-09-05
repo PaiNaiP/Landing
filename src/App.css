@@ -1,38 +1,800 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Miniver&display=swap');
+
+body{
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  color: #3A3A3A;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  scroll-behavior: auto;
+}
+
+#nav {
+  position: fixed;
+  left: 0px;
+  width: 100%;
+  margin: 0 auto;
+  top: 0;
+  background: white;
+}
+#nav ul {
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+}
+#nav ul li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+#nav ul li a {
+  text-decoration: none;
+  padding: 20px 27px;
+  display: block;
+  text-align: center;
+  color: #3A3A3A;
+  line-height: 29px;
+  font-weight: 500;
+  
+}
+
+button{
+  font-family:'Inter', sans-serif;
+  width: 148px;
+  height: 33px;
+  background-color: transparent;
+  font-size: 15px;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  border: 1px solid #1698DA;
+  line-height: 24px;
+  border-radius: 40px;
+  color: #3A3A3A;
+  font-weight: 500;
+}
+
+#btn-contact{
+  margin-left: 245px;
+}
+
+#cont-home{
+  display: flex;
+  background-color: #F1F1F1;
+  width: 100%;
+}
+
+#workout-text-cont{
+  margin-top: 17%;
+  margin-left: 17rem;
+  white-space: nowrap;
+}
+
+#fit-png{
+  margin-top: 75px;
+  margin-left: -17%;
+  padding-bottom: 5px;
+}
+
+#workout{
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+}
+
+#workout-text-cont h1{
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+#workout-text-cont h1 span{
+  color: #1698DA;
+}
+
+#workout-text-cont p{
+  font-weight: 400;
+  color: #3A3A3A;
+}
+
+#workout-text-cont button{
+  margin-top: 10px;
+}
+
+#home{
+  margin: 0 auto;
+  display: flex;
+  overflow-x: hidden;
+}
+
+#cont-about-us{
+  display: flex;
+  margin: 0 auto;
+}
+
+#about-us{
+  width: 100%;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+#cnt-about-us{
+  display: flex;
+  margin: 0 auto;
+}
+
+#text-about-cont{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#about-us-img{
+  margin-left: 60px;
+  width: 560px;
+  height: 382px;
+  box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.253);
+}
+
+#img-us{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#text-about-cont h1{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+#text-about-cont p{
+  line-height: 25px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  margin-top: 35px;
+  font-size: 18px;
+}
+
+#text-about-cont button{
+  margin-top: 30px;
+}
+
+#our-classes{
+  background-color: #F1F1F1;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#classes-cont{
+  margin: 0 auto;
+  width: 100%;
+}
+
+#cnt-classes{
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+#circle-cont{
+  display: flex;
+  margin: 0 auto;
+}
+
+#cnt-circle{
+  margin: 0 auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#circle{
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#one{
+  margin-left: 0;
+  margin-right: 4px;
+  margin-top: 3.5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#two{
+  margin-left: 4px;
+  margin-right: 0;
+  margin-top: 3.5px;
+}
+
+#cnt-classes p{
+  font-weight: 300;
+  line-height: 27px;
+  font-size: 18px;
+  color: #3A3A3A;
+}
+
+#cnt-classes button{
+  width: 180px;
+}
+
+#clsss-cnt{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+#class{
+  margin: 0 auto;
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#cls-cnt{
+  margin: 20px;
+  margin-top: 0;
+  margin-bottom: 0; 
+  background-color: white;
+}
+
+#time-and-name-cont{
+  display: flex;
+  margin: 0;
+}
+
+#time-cont{
+  display: flex;
+  right: 0;
+  margin-left: 100px;
+}
+
+#title-cont{
+  text-align: left;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 15px;
+  margin-top: 3px;
+}
+
+hr{
+  background-color: rgba(0, 0, 0, 0.25);
+  border: 1px solid #BFBFBF;
+}
+
+#name{
+  margin: 0;
+  margin-left: 15px;
+  margin-bottom: 9px;
+  width: 15px;
+  margin-top: 2px;
+}
+
+#name-text{
+  margin: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  margin-left: 10px;
+  margin-bottom: 7px;
+}
+
+#time{
+  margin: 0;
+  width: 16px;
+  margin-top: -6px;
+  margin-right: 10px;
+}
+
+#time-text{
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 1px;
+  margin-bottom: 6px;
+}
+
+#time-and-name-cont p{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+TABLE {
+  border-collapse: collapse; 
+  height: 450px;
+  padding: 0;
+  margin: 0;
+}
+
+TD{
+  padding: 0px; 
+  border: 1px solid #CFCFCF; 
+  text-align: center;
+  white-space: nowrap;
+}
+
+tr{
+  border: 1px solid #CFCFCF;
+  width: 70px;
+}
+
+#time-table{
+  border: transparent;
+  text-align: center;
+  padding: 25px;
+}
+
+#events span{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+#events p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  margin-top: 0;
+}
+
+#event-name{
+  padding: 0;
+  margin-top: 7px;
+}
+
+#event-time{
+  padding: 0;
+  margin-top: -10px;
+  padding: 0 4px;
+}
+
+#events{
+  padding: 5px 0;
+}
+
+th{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+#class-timetable{
+  width: 100%;
+  text-align: center;
+}
+
+#time-table{
+  margin: 0 auto;
+  display: flex;
+}
+
+#tables{
+  margin: 0 auto;
+  margin-top: -25PX;
+}
+
+#circ{
+  margin-top: -15px;
+}
+
+#timetable-text{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #3A3A3A;
+}
+
+#our-trainers{
+  background-color: #F1F1F1;
+  margin: 0 auto;
+}
+
+#trainers-cont{
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
+}
+
+#trainers-images-cont img{
+  padding: 10px;
+}
+
+#gallery-cont{
+  text-align: center;
+  padding: 40px;
+}
+
+#img-cont-gallery img{
+  margin: 10px;
+}
+
+#gallery-cont p{
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 27px;
+  color: #3A3A3A;
+}
+
+#trainers-cont p{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #3A3A3A;
+}
+
+#blog-cont{
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+#cont-img-blog{
+  display: flex;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+#img-blog-text-cont{
+  display: flex;
+  padding: 20px;
+}
+
+#cnt-img-blg{
+  display: flex;
+}
+
+#cont-txt-blog{
+  box-shadow: 3px 2px 7px 2px rgb(0 0 0 / 25%);
+  height: 210px;
+  margin-top: 40px;
+  background-color: white;
+  text-align: left;
+}
+
+#our-blog{
+  background-color: #F1F1F1;
+}
+
+#txt-blg{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+#blog-cont p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  color: #3A3A3A;
+}
+
+#txt-blg h2{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+#txt-blg span{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+#spn-cnt{
+  margin-top: -5px;
+}
+
+#p-cnt p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+#p-cnt{
+  margin-top: -5px;
+}
+
+#rd-cnt{
+  margin-top: -5px;
+}
+
+#circ-cnt{
+  margin-top: -15px;
+}
+
+#our-prices{
+  text-align: center;
+}
+
+#price-cnt-one{
+  display: flex;
+  margin: 0 auto
+}
+
+#price-cnt{
+  display: flex;
+}
+
+#prct-cnt{
+  box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.253);
+  margin: 20px;
+  border-radius: 3px;
+}
+
+#package-cnt{
+  background-color: #F1F1F1;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  padding: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#price-cnt{
+  background-color: #FFFFFF;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+#price{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 67px;
+  text-align: center; 
+  color: #666666;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+#month-price{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align:end;
+  color: #666666;
+  bottom: 0;
+  margin-top: 40px;
+  margin-left: -6px;
+}
+
+#bonus{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  background-color: #F1F1F1;
+  padding: 20px;
+  border-bottom: 1px solid#CDCDCD;
+}
+
+#bonus-top{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  background-color: #F1F1F1;
+  padding: 20px;
+  padding-top: 40px;
+  border-bottom: 1px solid#CDCDCD;
+}
+
+#bonus-bot{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  background-color: #F1F1F1;
+  padding: 20px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid#CDCDCD;
+}
+
+#GetStarted{
+  background-color: #F1F1F1;
+  width: 120px;
+  margin: 0 auto;
+  margin-top: -40px;
+  border-radius: 50px;
+  padding: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.253);
+}
+
+#price-cont{
+  padding: 40px;
+  padding-top: 60px;
+}
+
+#crcl-cnt-price{
+  margin-top: -10px;
+}
+
+#price-cont p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #3A3A3A;
+}
+
+#testimonies-cont{
+  text-align: center;
+  background-color: #F1F1F1;
+}
+
+#testimonies-txt{
+  background-color: white;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: -60px;
+  padding: 30px;
+}
+
+#comma{
+  margin-right: 850px;
+  width: 130px;
+}
+
+#cont-testi p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #3A3A3A;
+  white-space: nowrap;
+}
+
+#cont-testi span{
+  font-family: 'Miniver', cursive;
+  font-size: 22px;
+}
+
+#wyms{
+  margin-top: -10PX;
+}
+
+#CEO{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #3A3A3A;
+  margin-top: 10PX;
+}
+
+#cont-testi{
+  padding: 40px;
+}
+
+#footer-cont{
+  display: flex;
+  margin: 0 auto;
+}
+
+#social-media{
+  white-space:nowrap;
+}
+
+#footer{
+  display: flex;
+}
+
+#social-media{
+  padding: 30px;
+}
+
+#ft-cnt{
+  padding: 30px;
+  padding-top: 20px;
+}
+
+#footer-cont h5{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 25px;
+}
+
+#ft-cnt div{
+  padding-bottom: 10px;
+}
+
+#reach-cont img{
+  margin-top: -10px;
+  padding: 10px;
+  padding-left: 0;
+}
+
+#reach{
+  margin-top: -1px;
+}
+
+#reach-cont{
+  display: flex;
+}
+
+#rch-cont{
+  margin-left: 40px;
+}
+
+#social-media p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.005em;
+}
+
+#social-media span{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+#social-media{
+  margin-top: 60px;
+}
+
+#FootEnd{
+  background-color: #F1F1F1;
+  text-align: center;
+}
+
+#FootEnd p{
+  color:  #182F43;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+#foot-cont{
+  padding: 1px;
 }

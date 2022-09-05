@@ -1,0 +1,156 @@
+{
+    "Exercise":[
+        {
+            "id": 1,
+            "Time": "8:00 AM - 11:00 AM",
+            "Name": "Jenny",
+            "Day": "Monday",
+            "TimeTo": "8:00 AM"
+        },
+        {
+            "id": 2,
+            "Time": "",
+            "Name": "",
+            "Day": "Tuesday",
+            "TimeTo": ""
+        },
+        {
+            "id": 3,
+            "Time": "8:00 AM - 11:00 AM",
+            "Name": "Jenny",
+            "Day": "Wednesday",
+            "TimeTo": "8:00 AM"
+        },
+        {
+            "id": 4,
+            "Time": "",
+            "Name": "",
+            "Day": "Thursday",
+            "TimeTo": ""
+        },
+        {
+            "id": 5,
+            "Time": "8:00 AM - 11:00 AM",
+            "Name": "Jenny",
+            "Day": "Friday",
+            "TimeTo": "8:00 AM"
+        },
+        {
+            "id": 6,
+            "Time": "",
+            "Name": "",
+            "Day": "Saturday",
+            "TimeTo": ""
+        },
+        {
+            "id": 7,
+            "Time": "8:00 AM - 11:00 AM",
+            "Name": "Jenny",
+            "Day": "Sunday",
+            "TimeTo": "8:00 AM"
+        }
+    ],
+    "Karate": [
+        {
+            "id": 1,
+            "Time": "",
+            "Name": "",
+            "Day": "Monday",
+            "TimeTo": "" 
+        },
+        {
+            "id": 2,
+            "Time": "12:00 PM - 3:00 PM",
+            "Name": "Frank",
+            "Day": "Tuesday",
+            "TimeTo": "12:00 PM"
+        },
+        {
+            "id": 3,
+            "Time": "",
+            "Name": "",
+            "Day": "Wednesday",
+            "TimeTo": "" 
+        },
+        {
+            "id": 4,
+            "Time": "12:00 PM - 3:00 PM",
+            "Name": "Frank",
+            "Day": "Thursday",
+            "TimeTo": "12:00 PM"
+        },
+        {
+            "id": 5,
+            "Time": "",
+            "Name": "",
+            "Day": "Friday",
+            "TimeTo": "" 
+        },
+        {
+            "id": 6,
+            "Time": "12:00 PM - 3:00 PM",
+            "Name": "Frank",
+            "Day": "Saturday",
+            "TimeTo": "12:00 PM"
+        },
+        {
+            "id": 7,
+            "Time": "",
+            "Name": "",
+            "Day": "Sunday",
+            "TimeTo": "" 
+        }
+    ],
+    "Yoga":[
+        {
+            "id": 1,
+            "Time": "4:00 PM - 7:00 PM",
+            "Name": "Jane",
+            "Day": "Monday",
+            "TimeTo": "4:00 PM"
+        },
+        {
+            "id": 2,
+            "Time": "",
+            "Name": "",
+            "Day": "Tuesday",
+            "TimeTo": ""
+        },
+        {
+            "id": 3,
+            "Time": "4:00 PM - 7:00 PM",
+            "Name": "Jane",
+            "Day": "Wednesday",
+            "TimeTo": "4:00 PM"
+        },
+        {
+            "id": 4,
+            "Time": "",
+            "Name": "",
+            "Day": "Thursday",
+            "TimeTo": ""
+        },
+        {
+            "id": 5,
+            "Time": "4:00 PM - 7:00 PM",
+            "Name": "Jane",
+            "Day": "Friday",
+            "TimeTo": "4:00 PM"
+        },
+        {
+            "id": 6,
+            "Time": "",
+            "Name": "",
+            "Day": "Saturday",
+            "TimeTo": ""
+        },
+        {
+            "id": 7,
+            "Time": "4:00 PM - 7:00 PM",
+            "Name": "Jane",
+            "Day": "Sunday",
+            "TimeTo": "4:00 PM"
+        }
+    ]
+
+}

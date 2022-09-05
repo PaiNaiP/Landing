@@ -1,0 +1,25 @@
+{
+    "classes":[
+        {
+            "id": 1,
+            "image": "https://sun9-east.userapi.com/sun9-58/s/v1/ig2/NGqI2bhZFpKZ4JhCM9aGRqI7wL4WAJrn47m-ATBHvjDQ4VU7biIsR5VwRMy9vrklDxOLNTl6W9xijFPj3KfxJI9o.jpg?size=350x200&quality=95&type=album",
+            "title": "Yoga",
+            "name": "Jane",
+            "time": "8:00AM - 11:00AM"
+        },
+        {
+            "id": 2,
+            "image": "https://sun9-west.userapi.com/sun9-71/s/v1/ig2/sLg2_e6ePIrz0gjQYgrTlF4xIxKNwDdR0-D0zYggumo9iNToHaJCPDB1R8tz-Xmug_q2JT8w00iwzs7GZlUnCwDl.jpg?size=350x200&quality=95&type=album",
+            "title": "Karate",
+            "name": "Frank",
+            "time": "12:00AM - 3:00PM"
+        },
+        {
+            "id": 3,
+            "image": "https://sun9-west.userapi.com/sun9-72/s/v1/ig2/OiAxYAL_QY_CBm83FM5AsE6f4-IJ0uylfXa-geXLXJSzRoO8nHP2slMdtRiJTEzMVTxAW9Rfa-XsojPqYoOsorKK.jpg?size=350x200&quality=95&type=album",
+            "title": "Exercise",
+            "name": "Janny",
+            "time": "4:00PM - 7:00PM"
+        }
+    ]
+}
